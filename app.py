@@ -14,4 +14,4 @@ def home():
     return render_template('index.html', books=books)
 if __name__ == '__main__':
     # Force the host to 127.0.0.1 to avoid the 'getaddrinfo' error
-    app.run(host='0.0.0.0', port=5050)
+    app.run(host='0.0.0.0', port=5025)
